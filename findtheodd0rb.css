@@ -37,7 +37,7 @@
 
 @keyframes move_left {
     0% {
-        transform: translateX(0vw);
+        transform: translateX(100vw);
     }
 
     100% {
@@ -51,7 +51,7 @@
     }
 
     100% {
-        transform: translateX(85vw);
+        transform: translateX(115vw);
     }
 }
 
