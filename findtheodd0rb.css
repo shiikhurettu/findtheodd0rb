@@ -41,7 +41,7 @@
     }
 
     100% {
-        transform: translateX(15vw);
+        transform: translateX(50vw);
     }
 }
 
@@ -51,7 +51,7 @@
     }
 
     100% {
-        transform: translateX(85vw);
+        transform: translateX(50vw);
     }
 }
 
