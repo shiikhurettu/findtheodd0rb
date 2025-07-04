@@ -47,11 +47,11 @@
 
 @keyframes move_right {
     0% {
-        transform: translateX(-85vw);
+        transform: translateX(0vw);
     }
 
     100% {
-        transform: translateX(0vw);
+        transform: translateX(85vw);
     }
 }
 
