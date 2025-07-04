@@ -37,21 +37,21 @@
 
 @keyframes move_left {
     0% {
-        transform: translateX(100vw);
+        transform: translateX(0vw);
     }
 
     100% {
-        transform: translateX(50vw);
+        transform: translateX(-85vw);
     }
 }
 
 @keyframes move_right {
     0% {
-        transform: translateX(0vw);
+        transform: translateX(-85vw);
     }
 
     100% {
-        transform: translateX(50vw);
+        transform: translateX(0vw);
     }
 }
 
