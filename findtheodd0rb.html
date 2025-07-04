@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64b31085e7.js" crossorigin="anonymous"></script>
+    <link href="https://res.cloudinary.com/dxoakgmc9/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1747546446/findtheoddorb_1_nw6xii.png" rel="shortcut icon" />
+</head>
+
+<body>
+    <div class="container-fluid bg d-flex flex-column justify-content-start">
+        <div class="row">
+            <div class="col-10 col-md-5 m-auto">
+                <h2 class="text-center text-light head pb-2 pt-3 m-auto">Find the odd Orb</h2>
+                <div class="bg-in">
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-light sp bt bt2" onclick="showElapsedTime()"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light  bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                        <button class="btn btn-outline-light bt bt2"></button>
+                    </div>
+                    <div class="mb-1">
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                        <button class="btn btn-outline-light bt bt1"></button>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog glow bg-warning">
+                            <div class="modal-content mod">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-warning" id="exampleModalLabel">Congratualtions, You win!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <h4 class="modal-body text-warning" id="result">
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center pt-3 pt-md-5">
+                    <a href="findtheodd0rb.ccbp.tech">
+                        <button class="btn btn-light btstart">Start</button>
+                    </a>
+                </div>
+            </div>
+            <div class="text-light mt-3 mt-md-5 col-md-4 mr-lg-5">
+                <p class="inst">Instructions:<br></p>
+                <ul>
+                    <li>
+                        <p>Find the Orb that looks different from the rest and double-click it</p>
+                    </li>
+                    <li>
+                        <p>Time-taken will be recorded, hence click on the 'start' (to refresh) when you are ready</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
